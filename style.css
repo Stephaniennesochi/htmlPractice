@@ -76,26 +76,33 @@ h2{
     font-weight: 600;
 }
 h3{
-    text-align: center;
-    line-height: 1.4;
+    text-align: justify;
+    line-height: 1.6;
     word-spacing: 1px;
+    padding-left: 5px;
 
+
+
+}
+.contact-h3{
+    text-align: center;
 }
 #submit-btn{
     padding: 8px 10px;
     border: 0px solid transparent;
     outline: none;
-    background-color: burlywood;
+    background-color: blue;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     cursor: pointer;
     opacity: 0.9;
     position: relative;
-    left: 80px;
-    color: blue;
+    left: 85px;
+    color: white;
 }
 #submit-btn:hover{
     transition: 0.1s;
     background-color:gray;
+    color: black;
 }
